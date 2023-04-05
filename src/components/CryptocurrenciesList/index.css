@@ -1,0 +1,123 @@
+.crypto-currencies-list-heading-card {
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.crypto-currencies-list-main-heading {
+  font-weight: bold;
+  color: #00e7ff;
+  text-align: center;
+}
+
+.crypto-currencies-list-main-image {
+  width: 100%;
+}
+
+.crypto-currencies-items-card {
+  border: 4px solid #00e7ff;
+  border-radius: 10px;
+  min-width: 100%;
+}
+
+.crypto-currencies-item-heading-card {
+  background-color: #092e33;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.crypto-currencies-item-heading-card-sub-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crypto-currency-each-currency-item-card {
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media (max-width: 300px) {
+  .crypto-currencies-list-main-heading {
+    font-size: 18px;
+  }
+  .crypto-currencies-item-heading-card-main-heading {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .crypto-currencies-list-main-heading {
+    font-size: 20px;
+  }
+  .crypto-currencies-item-heading-card-main-heading {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 400px) {
+  .crypto-currencies-list-main-heading {
+    font-size: 25px;
+  }
+  .crypto-currencies-item-heading-card-main-heading {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .crypto-currencies-list-main-heading {
+    font-size: 30px;
+  }
+  .crypto-currencies-item-heading-card-main-heading {
+    font-size: 22px;
+    margin-left: 13px;
+    margin-right: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  .crypto-currencies-list-main-heading {
+    font-size: 40px;
+  }
+  .crypto-currencies-item-heading-card-main-heading {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .crypto-currencies-list-main-heading {
+    font-size: 50px;
+  }
+  .crypto-currencies-item-heading-card-main-heading {
+    font-size: 27px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .crypto-currencies-list-main-heading {
+    font-size: 60px;
+  }
+  .crypto-currencies-item-heading-card-main-heading {
+    font-size: 30px;
+    margin-left: 17px;
+    margin-right: 17px;
+  }
+}
